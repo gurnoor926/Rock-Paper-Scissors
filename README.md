@@ -23,4 +23,4 @@ Challenge the computer, track your score, and enjoy a clean, responsive UI!
 - **Vanilla JavaScript** (DOM manipulation, logic handling)
 
 ---
-link - gurnoor926.github.io/Rock-Paper-Scissors/
+link - https://gurnoor926.github.io/Rock-Paper-Scissors/
