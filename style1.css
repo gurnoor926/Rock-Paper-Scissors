@@ -1,0 +1,97 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(121, 2, 195);
+    background: radial-gradient(circle, hsla(183, 89%, 42%, 1) 25%, hsla(212, 51%, 48%, 1) 95%);
+}
+
+/* Heading Style */
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.5rem;
+}
+
+/* Button Container */
+#btn {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Button Style */
+button {
+    width: 300px;
+    height: 40px;
+    background: rgb(63,228,251);
+    background: linear-gradient(102deg, rgba(63,228,251,1) 0%, rgba(73,241,234,1) 0%, rgba(40,90,213,1) 0%, rgba(213,40,145,1) 79%);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Link Style */
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+
+/* For small screens like mobile devices */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        padding-top: 50px;
+    }
+
+    #btn {
+        padding: 50px 10px;
+    }
+
+    button {
+        width: 80%;
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    a {
+        font-size: 15px;
+        
+    }
+}
+
+/* For medium screens like tablets */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    #btn {
+        padding: 80px 20px;
+    }
+
+    button {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+    a {
+        font-size: 15px;
+    }
+}
